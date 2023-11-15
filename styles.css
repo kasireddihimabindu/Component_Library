@@ -1,0 +1,174 @@
+.NavBar{
+    text-align: left;
+
+}
+h2{
+    color: #000;
+    text-shadow: 2px solid #111;
+    font-weight: bolder;
+    font-size: 50px;
+}
+p{
+    color: rgb(215, 240, 231);
+    font-weight: bolder;
+    font-size: 18px;
+}
+b{
+    font-weight: bolder;
+    font-size: 25px;
+}
+  .vertical-li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #111;
+    font-weight:400;
+   }
+
+  .vertical-li  a{
+    text-align: center;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 8px 20px;
+    display:block;
+  }
+
+ .vertical-li a:hover {
+    background-color: #333;
+    color: white; 
+  }
+
+  .nav-links{
+    list-style-type: none;
+    margin: 18px;
+    padding: 2px;
+    background-color: #111;
+    overflow: hidden;
+  }
+  .horizontal-li{
+    float: left;
+    font-weight:400;
+  }
+  .horizontal-li a{
+    list-style-type: none;
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    }
+    .horizontal-li-search{
+        list-style-type: none;
+        color: #f1f1f1;
+        text-decoration: none;
+        display: block;
+        padding: 14px 16px;
+        text-align: center;
+    }
+  .horizontal-li a:hover {
+    background-color: #333;
+    color: white; 
+  }
+  .nrml-btn{
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .outlne-btn{
+    background-color: rebeccapurple;
+    border-radius: 4rem;
+    color: whitesmoke;
+    text-align: center;
+    font-size: larger;
+    padding: 14px 25px;
+    text-decoration: solid;
+    border-color: rgb(31, 6, 56);
+    font-weight: bold;
+  }
+
+  .hovrbl-btn{
+    border: 3px solid rgb(220, 67, 118);
+    color: #000;
+    font-size: larger;
+    transition-duration: 0.4s;
+    background-color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+  }
+
+  .hovrbl-btn:hover{
+    background-color: rgb(220, 67, 118);
+    color: whitesmoke;
+    border-radius: 1rem;
+  }
+
+  .shadw-btn{
+    font-size: large;
+    font-weight: bold;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 14px 25px;
+  }
+
+  .shadw-btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .disable-btn{
+    background-color:orangered;
+    color:whitesmoke;
+    padding: 14px 25px;
+    font-size: large;
+    font-weight: bold;
+    border-color: orangered;
+    border-radius: 1rem;
+  }
+
+  .disable-btn:hover{
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .anim-btn{
+    padding:14px 20px;
+    font-size: large;
+    border-radius: 4px;
+    border: none;
+    transition: all 0.05s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .anim-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .anim-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .anim-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .anim-btn:hover span {
+  padding-right: 25px;
+}
+
+.anim-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+  }
