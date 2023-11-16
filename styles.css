@@ -172,3 +172,75 @@ b{
   opacity: 1;
   right: 0;
   }
+
+  .alert-box{
+    display: block;
+    padding: 50px 0;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    background-color:whitesmoke;
+  }
+  .closeBtn {
+    float: right;
+    margin-left: 18px;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bolder;
+    
+}
+
+ .alert-error{
+        padding: 15px;
+        width: 75%;
+        font-size: 20px;
+        margin: auto;
+        color:#f4c2bf;
+        border-radius: 5px;
+        background-color:#8f130c ;
+        box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px 2px;
+    }
+
+ .alert-success{
+        padding: 15px;
+        width: 75%;
+        font-size: 20px;
+        margin: auto;
+        color: #c8fac5;
+        border-radius: 5px;
+        background-color:#198754;
+        box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px 2px;
+    }
+ .alert-info{
+        padding: 15px;
+        width: 75%;
+        font-size: 20px;
+        margin: auto;
+        color: #000;
+        border-radius: 5px;
+        background-color:#d8f0fa;
+        box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px 2px;
+
+    }
+.alert-warning{
+        padding: 15px;
+        width: 75%;
+        font-size: 20px;
+        margin: auto;
+        color: #000;
+        border-radius: 5px;
+        background-color:#ffe505;
+        box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px 2px;
+    }
+.alert{
+        padding: 15px;
+        width: 75%;
+        font-size: 20px;
+        margin: auto;
+        color: #ffff;
+        border-radius: 5px;
+        background-color:thistle;
+        box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px 2px;    
+    }

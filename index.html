@@ -3,6 +3,7 @@
     <head >
         <link rel="stylesheet" href="styles.css">
         <title>Component Library</title>
+        <meta charset="UTF-8">
     </head>
     <body style="color: whitesmoke;background-color: darkseagreen;">
         <div class="navBar">
@@ -40,6 +41,42 @@
             <button class="disable-btn"> Disabled</button> &nbsp;&nbsp;&nbsp;
             <button class="anim-btn"style="vertical-align:middle"><span>Anime</span></button> 
         </div>
+
+        <br>
+        <h2> Alert box</h2>
+        <p>The alert message notifies the recipient of an exceptional event. The CSS alerts inform the user of something significant, such as danger, success, information, or a warning.</p>
+        <div class="alert-box">
+        <!-- Alert message for displaying an error -->
+        <div class="alert-error">
+            <span class="closeBtn" onclick="this.parentElement.style.display='none';">×</span>
+            <strong>Error!</strong> This is an error message.
+        </div>
+        &nbsp;
+        <!-- Alert message for displaying a success message -->
+        <div class="alert-success">
+            <span class="closeBtn" onclick="this.parentElement.style.display='none';">×</span>
+                <strong>Success!</strong> This is a success alert.
+        </div>
+        &nbsp;
+        <!-- Alert message for displaying information -->
+        <div class="alert-info">
+            <span class="closeBtn" onclick="this.parentElement.style.display='none';">×</span>
+            This alert message provides some information.
+        </div>
+        &nbsp;
+        <!-- Alert message for displaying a warning -->
+        <div class="alert-warning">
+            <span class="closeBtn" onclick="this.parentElement.style.display='none';">×</span>
+            <strong>Warning!</strong> This is warning alert.
+        </div>
+        &nbsp;
+        <!-- A standard alert message -->
+        <div class="alert">
+            <span class="closeBtn" onclick="this.parentElement.style.display='none';">×</span>
+           This is a standard alert message with no style.
+        </div>
+        </div>
+    </div>
 
 
     </body>
